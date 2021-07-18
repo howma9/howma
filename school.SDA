@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace project_step1SDA
+{
+    class school
+    {
+        public string ID { get; set; }
+        public string Name { get; set; }
+        public string Class { get; set; }
+        public string Section { get; set; }
+
+    }
+    class program
+    { 
+        static void Main(string[] args)
+        {
+            
+
+            school s1 = new school { ID = "11674648", Name = "howma", Class = "level one", Section = "student" };
+            school s2 = new school { ID = "11674125", Name = "nora", Class = "second level", Section = "teacher" };
+            school s3 = new school { ID = "11674655", Name = "amal", Class = "third level", Section = "student" };
+            
+            Console.WriteLine($"{s1.ID} {s1.Name} {s1.Class} {s1.Section}");
+            Console.WriteLine($"{s2.ID} {s2.Name} {s2.Class} {s2.Section}");
+            Console.WriteLine($"{s3.ID} {s3.Name} {s3.Class} {s3.Section}");
+        }
+    }
+}
