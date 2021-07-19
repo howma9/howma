@@ -9,9 +9,9 @@ namespace school_SAD
     {
         static void Main(string[] args)
         {
-            //Directory.CreateDirectory("D:\\My\\MyFiles");
-            // Directory.CreateDirectory("My Folder");
-            // Directory.Delete("MyFiles");
+            Directory.CreateDirectory("D:\\My\\MyFiles");
+             Directory.CreateDirectory("My Folder");
+         
             //StreamWriter sw = new StreamWriter("MyFile.txt");
             StreamWriter sw = new StreamWriter("MyFile.txt",true);
             sw.WriteLine("ID       1116754687");
